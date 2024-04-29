@@ -1,7 +1,4 @@
-function searchCity(response) {
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = response.data.temperature.current;
-}
+function searchCity(city) {}
 function handlesubmit(event) {
   event.preventDefault();
   let searchinputElement = document.querySelector("#search-form-input");
