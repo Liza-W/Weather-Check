@@ -16,20 +16,31 @@
     <div class="weather-app">
       <header>
         <h1>Weather-Check</h1>
-        <form>
-          <input type="search" placeholder="Enter City.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter City.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>⛅12°C</div>
-        <div>
-          <h2>Paris</h2>
-          <p>
-            Monday 10:54, few clouds
-            <br />
-            Humidity:<strong>80%,</strong> Wind:<strong>10.29km/h</strong>
-          </p>
+        <div class="weather-app-data">
+          <div class="weather-app-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+          <div>
+            <h2 class="weather-app-city">Paris</h2>
+            <p class="weather-app-details">
+              Monday 10:54, few clouds
+              <br />
+              Humidity:<strong>80%,</strong> Wind:<strong>10.29km/h</strong>
+            </p>
+          </div>
         </div>
       </main>
       <footer>
@@ -38,7 +49,8 @@
         is
         <a href="https://github.com/Liza-W/Weather-Check"
           >open sourced on github</a
-        >and
+        >
+        and
         <a href="https://weather-check12.netlify.app/">hosted on Netlify</a>
       </footer>
     </div>
