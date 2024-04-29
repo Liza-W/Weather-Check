@@ -16,12 +16,13 @@
     <div class="weather-app">
       <header>
         <h1>Weather-Check</h1>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter City.."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -30,11 +31,11 @@
         <div class="weather-app-data">
           <div class="weather-app-container">
             <div class="weather-app-icon">⛅</div>
-            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-temperature" id="temperature">12</div>
             <div class="weather-app-unit">°C</div>
           </div>
           <div>
-            <h2 class="weather-app-city">Paris</h2>
+            <h2 class="weather-app-city" id="city">Paris</h2>
             <p class="weather-app-details">
               Monday 10:54, few clouds
               <br />
@@ -54,5 +55,6 @@
         <a href="https://weather-check12.netlify.app/">hosted on Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
