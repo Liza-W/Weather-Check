@@ -3,34 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>WeatherCheck</title>
   </head>
   <body>
-    <header>
-      <h1>Weather-Check</h1>
-      <form>
-        <input type="search" placeholder="Enter City.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>⛅12°C</div>
-      <div>
-        <h2>Paris</h2>
-        <p>
-          Monday 10:54, few clouds
-          <br />
-          Humidity:<strong>80%,</strong> Wind:<strong>10.29km/h</strong>
-        </p>
-      </div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/Liza-W/">Liza Kamau, </a>
-      is
-      <a href="https://github.com/Liza-W/Weather-Check"
-        >open sourced on github</a
-      >and <a href="https://weather-check12.netlify.app/">hosted on Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <h1>Weather-Check</h1>
+        <form>
+          <input type="search" placeholder="Enter City.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>⛅12°C</div>
+        <div>
+          <h2>Paris</h2>
+          <p>
+            Monday 10:54, few clouds
+            <br />
+            Humidity:<strong>80%,</strong> Wind:<strong>10.29km/h</strong>
+          </p>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/Liza-W/">Liza Kamau, </a>
+        is
+        <a href="https://github.com/Liza-W/Weather-Check"
+          >open sourced on github</a
+        >and
+        <a href="https://weather-check12.netlify.app/">hosted on Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
