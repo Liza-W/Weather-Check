@@ -82,3 +82,25 @@ footer {
   color: rgba(0, 0, 0, 0.9);
   font-weight: 500;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.weather-forecast-date {
+  text-align: center;
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  display: block;
+  margin-left: -50px;
+  margin-bottom: 10px;
+  width: 88px;
+  height: 88px;
+}
+.weather-forecast-temperatures {
+  display: flex;
+  margin-top: 80px;
+  margin-left: -70px;
+}
